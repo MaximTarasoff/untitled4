@@ -1,0 +1,1836 @@
+IP: ::1 Время: 23.09.2022 09:04:37:832 8f59e898-6820-46b7-a739-608d6c9d1ed9 - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495873</TerminalNumber><Version>1</Version><GameId>7103</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 09:04:37:835 8f59e898-6820-46b7-a739-608d6c9d1ed9 - Входная строка запроса в сотолото: TERMINAL_ID=130495873&VERSION=1&GAME_ID=7103&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 09:04:37:835 781d43f1-344c-42da-9357-4b6481747188 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 09:04:37:839 89011fb3-866e-48fa-a4eb-e100fcee3eaf - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 09:04:37:846 89011fb3-866e-48fa-a4eb-e100fcee3eaf - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 09:04:37:846 89011fb3-866e-48fa-a4eb-e100fcee3eaf - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 09:04:37:846 781d43f1-344c-42da-9357-4b6481747188 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 09:04:37:846 781d43f1-344c-42da-9357-4b6481747188 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 09:04:38:138 781d43f1-344c-42da-9357-4b6481747188 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 09:04:38:139 8f59e898-6820-46b7-a739-608d6c9d1ed9 - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1459&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:02&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;49329805700&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1460&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-01T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-01T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1462&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-08-28T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-15T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-15T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 09:04:38:139 8f59e898-6820-46b7-a739-608d6c9d1ed9 - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1459&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:02&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;49329805700&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1460&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-01T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-01T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1462&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-08-28T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-15T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-15T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 09:39:51:320 7dddabcf-adad-4ee6-8950-97d37618fc62 - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495831</TerminalNumber><Version>1</Version><GameId>7103</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 09:39:51:320 7dddabcf-adad-4ee6-8950-97d37618fc62 - Входная строка запроса в сотолото: TERMINAL_ID=130495831&VERSION=1&GAME_ID=7103&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 09:39:51:321 2bc6932b-c311-45af-9d1f-c630372047e3 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 09:39:51:324 9810b959-08bd-4009-9b36-d87cb2cd9723 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 09:39:51:325 9810b959-08bd-4009-9b36-d87cb2cd9723 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 09:39:51:326 9810b959-08bd-4009-9b36-d87cb2cd9723 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 09:39:51:326 2bc6932b-c311-45af-9d1f-c630372047e3 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 09:39:51:326 2bc6932b-c311-45af-9d1f-c630372047e3 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 09:39:51:626 2bc6932b-c311-45af-9d1f-c630372047e3 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 09:39:51:626 7dddabcf-adad-4ee6-8950-97d37618fc62 - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1459&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:02&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;49329805700&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1460&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-01T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-01T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1462&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-08-28T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-15T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-15T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 09:39:51:627 7dddabcf-adad-4ee6-8950-97d37618fc62 - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1459&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:02&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;49329805700&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1460&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-01T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-01T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1462&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-08-28T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-15T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-15T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 09:50:40:208 72bcbcca-7d8e-4fd2-84c1-08db6ff1a0ef - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495879</TerminalNumber><Version>1</Version><GameId>7103</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 09:50:40:208 72bcbcca-7d8e-4fd2-84c1-08db6ff1a0ef - Входная строка запроса в сотолото: TERMINAL_ID=130495879&VERSION=1&GAME_ID=7103&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 09:50:40:209 9c25291f-ba78-4187-a43f-92f64984c415 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 09:50:40:212 f05b4459-ce9d-4370-a727-600ecc548b6a - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 09:50:40:216 f05b4459-ce9d-4370-a727-600ecc548b6a - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 09:50:40:216 f05b4459-ce9d-4370-a727-600ecc548b6a - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 09:50:40:216 9c25291f-ba78-4187-a43f-92f64984c415 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 09:50:40:217 9c25291f-ba78-4187-a43f-92f64984c415 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 09:50:40:506 9c25291f-ba78-4187-a43f-92f64984c415 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 09:50:40:507 72bcbcca-7d8e-4fd2-84c1-08db6ff1a0ef - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1459&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:02&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;49329805700&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1460&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-01T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-01T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1462&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-08-28T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-15T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-15T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 09:50:40:507 72bcbcca-7d8e-4fd2-84c1-08db6ff1a0ef - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1459&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:02&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;49329805700&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1460&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-01T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-01T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1462&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-08-28T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-15T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-15T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:13:31:846 ee23f7b5-6944-4f5b-89ad-85f25567873e - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495874</TerminalNumber><Version>1</Version><GameId>5101</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 10:13:31:846 ee23f7b5-6944-4f5b-89ad-85f25567873e - Входная строка запроса в сотолото: TERMINAL_ID=130495874&VERSION=1&GAME_ID=5101&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 10:13:31:847 c36343a2-2482-48e6-8888-dc03b430b939 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 10:13:31:849 29d85693-24fd-45a7-9a97-2af199624f3b - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:13:31:851 29d85693-24fd-45a7-9a97-2af199624f3b - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:13:31:852 29d85693-24fd-45a7-9a97-2af199624f3b - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:13:31:852 c36343a2-2482-48e6-8888-dc03b430b939 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:13:31:852 c36343a2-2482-48e6-8888-dc03b430b939 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:13:32:095 c36343a2-2482-48e6-8888-dc03b430b939 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:13:32:096 ee23f7b5-6944-4f5b-89ad-85f25567873e - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;7798&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-22T23:54:00&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-23T10:55:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-23T11:00:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;3000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;2505816500&lt;/jackpot&gt;
+    &lt;fields_number&gt;6&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;27132&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+      &lt;number&gt;2&lt;/number&gt;
+      &lt;number&gt;3&lt;/number&gt;
+      &lt;number&gt;4&lt;/number&gt;
+      &lt;number&gt;5&lt;/number&gt;
+      &lt;number&gt;6&lt;/number&gt;
+      &lt;number&gt;7&lt;/number&gt;
+      &lt;number&gt;8&lt;/number&gt;
+      &lt;number&gt;9&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;6&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;6&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;19&lt;/max_choice_number&gt;
+        &lt;size&gt;45&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories&gt;
+      &lt;category&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;is_superprize&gt;true&lt;/is_superprize&gt;
+        &lt;jackpot&gt;2505816500&lt;/jackpot&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;2&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;3&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;4&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;5&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+    &lt;/categories&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:13:32:097 ee23f7b5-6944-4f5b-89ad-85f25567873e - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;7798&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-22T23:54:00&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-23T10:55:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-23T11:00:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;3000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;2505816500&lt;/jackpot&gt;
+    &lt;fields_number&gt;6&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;27132&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+      &lt;number&gt;2&lt;/number&gt;
+      &lt;number&gt;3&lt;/number&gt;
+      &lt;number&gt;4&lt;/number&gt;
+      &lt;number&gt;5&lt;/number&gt;
+      &lt;number&gt;6&lt;/number&gt;
+      &lt;number&gt;7&lt;/number&gt;
+      &lt;number&gt;8&lt;/number&gt;
+      &lt;number&gt;9&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;6&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;6&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;19&lt;/max_choice_number&gt;
+        &lt;size&gt;45&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories&gt;
+      &lt;category&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;is_superprize&gt;true&lt;/is_superprize&gt;
+        &lt;jackpot&gt;2505816500&lt;/jackpot&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;2&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;3&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;4&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;5&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+    &lt;/categories&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:13:53:941 8b04ded9-1d88-435a-a833-36c5c2bd9f87 - Запрос в столото на продажу лотерейного билета (купона) 
+ <MOEStolotoRequest><Action>payment</Action><TerminalNumber>130495874</TerminalNumber><Barcode>51010000018397126</Barcode><GameId>5101</GameId><PlayerInfo>79296349550</PlayerInfo><PriceRequested>3000</PriceRequested><ExternalTransactionId>115</ExternalTransactionId><BetFlags>64</BetFlags><BetMultiplier>1</BetMultiplier><DrawsNumber>1</DrawsNumber><PlayerInfoId>1</PlayerInfoId><RequestTime>1</RequestTime><TimeZone>+4</TimeZone><PreferredDraw>7798</PreferredDraw></MOEStolotoRequest>
+IP: ::1 Время: 23.09.2022 10:13:53:942 8b04ded9-1d88-435a-a833-36c5c2bd9f87 - Входная строка запроса в сотолото: TERMINAL_ID=130495874&BET="51010000018397126"&BET_FLAGS=64&BET_MULTIPLIER=1&DRAWS_NUMBER=1&GAME_ID=5101&PLAYER_INFO="79296349550"&PLAYER_INFO_ID=1&PRICE_REQUESTED=3000&REQUEST_TIME=1&EXTERNAL_TRANSACTION_ID=115&TZ="+4"&PREFERRED_DRAW=7798
+IP: ::1 Время: 23.09.2022 10:13:53:943 1c185f89-d3fe-40ba-a93d-36738c5d68b7 - Отправляем запрос на - https://agent.stolotogate.ru:51443//prov/cgi_eprov?id=28
+IP: ::1 Время: 23.09.2022 10:13:53:946 466b3178-37e9-4d99-b80a-ce0024af0005 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:13:53:948 466b3178-37e9-4d99-b80a-ce0024af0005 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:13:53:949 466b3178-37e9-4d99-b80a-ce0024af0005 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:13:53:949 1c185f89-d3fe-40ba-a93d-36738c5d68b7 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:13:53:949 1c185f89-d3fe-40ba-a93d-36738c5d68b7 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:13:54:251 1c185f89-d3fe-40ba-a93d-36738c5d68b7 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:13:54:252 8b04ded9-1d88-435a-a833-36c5c2bd9f87 - Ответ от столото 115 : <MOEStolotoResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <TRANSACTION_FLAGS>0</TRANSACTION_FLAGS>
+  <TICKET_REGISTRATION_TIME>1663917234</TICKET_REGISTRATION_TIME>
+  <FIRST_DRAW_ID>7798</FIRST_DRAW_ID>
+  <LAST_DRAW_ID>7798</LAST_DRAW_ID>
+  <FIRST_DRAW_TIME>1663920000</FIRST_DRAW_TIME>
+  <TICKET_NUMBER>34729</TICKET_NUMBER>
+  <TICKET_ID>6211091350</TICKET_ID>
+  <PRICE_RETURNED>3000</PRICE_RETURNED>
+  <BET>"1#5#13#27#33#36"</BET>
+  <MIN_COLUMN_PRICE>3000</MIN_COLUMN_PRICE>
+  <COLUMNS_NUMBER>1</COLUMNS_NUMBER>
+  <RECEIPT>"W2NlbnRlcl3Qo9Cy0LXQtNC 0LzQu9C10L3QuNC1INC INC/0YDQuNGR0LzQtSDQu9C 0YLQtdGA0LXQudC90L7QuSDRgdGC0LDQstC60Lgg0LggDQrRgNC10LPQuNGB0YLRgNCw0YbQuNC4INGN0LvQtdC60YLRgNC 0L3QvdC 0LPQviDQu9C 0YLQtdGA0LXQudC90L7Qs9C INCx0LjQu9C10YLQsA0KW2hyPWRhc2hlZCAvXQ0KW2Jd0KHQv9C 0YDRgtC70L7RgtC IDYg0LjQtyA0NVsvYl0gINCS0JPQmyAyINCh0L/QvtGA0YIgLSDQkNC70LPQvtGA0LjRgtC8IOKEljENCuKEliDQsdC40LvQtdGC0LAgW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF0zNDcyOVsvZmllbGRdDQpbZmllbGRd0JBbL2ZpZWxkXVtmaWVsZCB6ZXJvZmlsbD0yXTA2Wy9maWVsZF06IFtmaWVsZF0wMSAwNSAxMyAyNyAzMyAzNlsvZmllbGRdDQrQo9C90LjQutCw0LvRjNC90YvQuSDQutC70Y7RhzogW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF02MjExMDkxMzUwWy9maWVsZF0NCltiYXJjb2RlXTYyMTEwOTEzNTBbL2JhcmNvZGVdDQrQotC40YDQsNC2IOKEljogW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF03Nzk4Wy9maWVsZF0gLSBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTc3OThbL2ZpZWxkXQ0K0JLQsNGIINC/0LXRgNCy0YvQuSDRgtC40YDQsNC2OiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTIzLzA5LzIwMjIgMTE6MDA6MDBbL2ZpZWxkXSDQnNCh0JoNCltocj1kYXNoZWQgL10NCtCm0JXQndCQINCY0KLQntCT0J46IFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMzAuMDBbL2ZpZWxkXSDRgNGD0LEuDQpbaHI9ZGFzaGVkIC9dDQpbYmFyY29kZV03OTI5NjM0OTU1MFsvYmFyY29kZV0NCltzaXplPXNtYWxsXdCd0L7QvNC10YAg0YLQtdC70LXRhNC 0L3QsDogW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF0rNyAoOTI5KSA2MzQtOTUtNTBbL2ZpZWxkXVsvc2l6ZV0NCltocj1kYXNoZWQgL10NCtCi0LXRgNC80LjQvdCw0Lsg4oSWIFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMTMwNDk1ODc0Wy9maWVsZF0NCltmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMjMvMDkvMjAyMiAxMDoxMzo1NFsvZmllbGRdINCc0KHQmg0KW2hyPWRhc2hlZCAvXQ0K0JPQvtGA0Y/Rh9Cw0Y8g0LvQuNC90LjRjyDQo9GH0LDRgdGC0L3QuNC60LAgOCA5MDAgNTU1LTAwLTU1DQrQmNC90YTQvtGA0LzQsNGG0LjRjyDQviDQsdC40LvQtdGC0LUgW2Jdd3d3LnN0b2xvdG8ucnUvYmlsZXRbL2JdDQpbL2NlbnRlcl0="</RECEIPT>
+</MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:13:54:274 8b04ded9-1d88-435a-a833-36c5c2bd9f87 - Ответ  
+ <MOEStolotoResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><TRANSACTION_FLAGS>0</TRANSACTION_FLAGS><TICKET_REGISTRATION_TIME>1663917234</TICKET_REGISTRATION_TIME><FIRST_DRAW_ID>7798</FIRST_DRAW_ID><LAST_DRAW_ID>7798</LAST_DRAW_ID><FIRST_DRAW_TIME>1663920000</FIRST_DRAW_TIME><TICKET_NUMBER>34729</TICKET_NUMBER><TICKET_ID>6211091350</TICKET_ID><PRICE_RETURNED>3000</PRICE_RETURNED><MIN_COLUMN_PRICE>3000</MIN_COLUMN_PRICE><COLUMNS_NUMBER>1</COLUMNS_NUMBER><RECEIPT>Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Спортлото 6 из 45  ВГЛ 2 Спорт - Алгоритм №1
+№ билета 34729
+А06: 01 05 13 27 33 36
+Уникальный ключ: 6211091350
+&lt;barcode&gt;6211091350&lt;/barcode&gt;
+Тираж №: 7798 - 7798
+Ваш первый тираж: 23/09/2022 11:00:00 МСК
+
+ЦЕНА ИТОГО: 30.00 руб.
+
+&lt;barcode&gt;79296349550&lt;/barcode&gt;
+Номер телефона: +7 (929) 634-95-50
+
+Терминал № 130495874
+23/09/2022 10:13:54 МСК
+
+Горячая линия Участника 8 900 555-00-55
+Информация о билете www.stoloto.ru/bilet
+</RECEIPT><RECEIPT_HTML>&lt;div class="recTop"&gt;&lt;p&gt;Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Спортлото 6 из 45&lt;/p&gt;&lt;/div&gt;&lt;p&gt;ВГЛ 2 Спорт - Алгоритм №1&lt;/p&gt;&lt;p&gt;№ билета 34729&lt;/p&gt;&lt;p&gt;А06: 01 05 13 27 33 36&lt;/p&gt;&lt;p&gt;&lt;b&gt;Уникальный ключ:&lt;/b&gt; 6211091350&lt;/p&gt;&lt;p&gt;&lt;b&gt;Тираж №:&lt;/b&gt; 7798 - 7798&lt;/p&gt;&lt;p&gt;&lt;b&gt;Ваш первый тираж:&lt;/b&gt; 23/09/2022 11:00:00 МСК&lt;/p&gt;&lt;div class = "bet"&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;ЦЕНА ИТОГО:&lt;/b&gt; 30.00 руб.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Номер телефона:&lt;/b&gt; +7 (929) 634-95-50&lt;/p&gt;&lt;p&gt;Терминал № 130495874&lt;/p&gt;&lt;p&gt;23/09/2022 10:13:54 МСК&lt;/p&gt;&lt;p&gt;Горячая линия Участника 8 900 555-00-55&lt;/p&gt;&lt;p&gt;Информация о билете www.stoloto.ru/bilet&lt;/p&gt;</RECEIPT_HTML><BET>"1#5#13#27#33#36"</BET><KEY_CANCEL>115</KEY_CANCEL></MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:14:01:773 965f0af2-2831-4659-a972-95c99f5a2594 - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495874</TerminalNumber><Version>1</Version><GameId>7115</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 10:14:01:773 965f0af2-2831-4659-a972-95c99f5a2594 - Входная строка запроса в сотолото: TERMINAL_ID=130495874&VERSION=1&GAME_ID=7115&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 10:14:01:774 3673b299-ea33-43b2-9a23-65bfbf40b650 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 10:14:01:776 3873a8b9-5088-45f0-ad44-3cff1e96efe4 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:14:01:778 3873a8b9-5088-45f0-ad44-3cff1e96efe4 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:14:01:778 3873a8b9-5088-45f0-ad44-3cff1e96efe4 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:14:01:778 3673b299-ea33-43b2-9a23-65bfbf40b650 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:14:01:778 3673b299-ea33-43b2-9a23-65bfbf40b650 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:14:02:002 3673b299-ea33-43b2-9a23-65bfbf40b650 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:14:02:003 965f0af2-2831-4659-a972-95c99f5a2594 - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;369&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-17T16:40:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T16:40:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T17:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;10000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;466361650&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;0&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;90&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:14:02:003 965f0af2-2831-4659-a972-95c99f5a2594 - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;369&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-17T16:40:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T16:40:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T17:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;10000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;466361650&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;0&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;90&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:14:17:939 2c5be849-7fdc-4a76-bd11-f393aa2144cf - Запрос в столото на продажу лотерейного билета (купона) 
+ <MOEStolotoRequest><Action>payment</Action><TerminalNumber>130495874</TerminalNumber><Barcode>71150000740390439</Barcode><GameId>7115</GameId><PlayerInfo>79296349550</PlayerInfo><PriceRequested>10000</PriceRequested><ExternalTransactionId>117</ExternalTransactionId><BetFlags>64</BetFlags><BetMultiplier>1</BetMultiplier><DrawsNumber>1</DrawsNumber><PlayerInfoId>1</PlayerInfoId><RequestTime>1</RequestTime><TimeZone>+4</TimeZone><PreferredDraw>369</PreferredDraw></MOEStolotoRequest>
+IP: ::1 Время: 23.09.2022 10:14:17:939 2c5be849-7fdc-4a76-bd11-f393aa2144cf - Входная строка запроса в сотолото: TERMINAL_ID=130495874&BET="71150000740390439"&BET_FLAGS=64&BET_MULTIPLIER=1&DRAWS_NUMBER=1&GAME_ID=7115&PLAYER_INFO="79296349550"&PLAYER_INFO_ID=1&PRICE_REQUESTED=10000&REQUEST_TIME=1&EXTERNAL_TRANSACTION_ID=117&TZ="+4"&PREFERRED_DRAW=369
+IP: ::1 Время: 23.09.2022 10:14:17:940 ad1d4e4d-837e-4241-84ba-d28465a6c778 - Отправляем запрос на - https://agent.stolotogate.ru:51443//prov/cgi_eprov?id=28
+IP: ::1 Время: 23.09.2022 10:14:17:942 35e39501-b6b0-4f4b-9b28-ef352ab896b9 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:14:17:944 35e39501-b6b0-4f4b-9b28-ef352ab896b9 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:14:17:944 35e39501-b6b0-4f4b-9b28-ef352ab896b9 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:14:17:945 ad1d4e4d-837e-4241-84ba-d28465a6c778 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:14:17:945 ad1d4e4d-837e-4241-84ba-d28465a6c778 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:14:18:219 ad1d4e4d-837e-4241-84ba-d28465a6c778 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:14:18:220 2c5be849-7fdc-4a76-bd11-f393aa2144cf - Ответ от столото 117 : <MOEStolotoResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <TRANSACTION_FLAGS>0</TRANSACTION_FLAGS>
+  <TICKET_REGISTRATION_TIME>1663917258</TICKET_REGISTRATION_TIME>
+  <FIRST_DRAW_ID>369</FIRST_DRAW_ID>
+  <LAST_DRAW_ID>369</LAST_DRAW_ID>
+  <FIRST_DRAW_TIME>1664029800</FIRST_DRAW_TIME>
+  <TICKET_NUMBER>47129</TICKET_NUMBER>
+  <TICKET_ID>6211092316</TICKET_ID>
+  <PRICE_RETURNED>10000</PRICE_RETURNED>
+  <MIN_COLUMN_PRICE>10000</MIN_COLUMN_PRICE>
+  <COLUMNS_NUMBER>1</COLUMNS_NUMBER>
+  <BET_BINGO>"22#34#40#58#75#39#45#60#72#89#03#18#27#51#84*10#44#62#78#88#25#32#50#61#87#08#12#41#52#70"</BET_BINGO>
+  <BLANK_CODE>"000074039043"</BLANK_CODE>
+  <BARCODE_PREGEN>"71150000740390439"</BARCODE_PREGEN>
+  <RECEIPT>"W2NlbnRlcl3Qo9Cy0LXQtNC 0LzQu9C10L3QuNC1INC INC/0YDQuNGR0LzQtSDQu9C 0YLQtdGA0LXQudC90L7QuSDRgdGC0LDQstC60Lgg0LggDQrRgNC10LPQuNGB0YLRgNCw0YbQuNC4INGN0LvQtdC60YLRgNC 0L3QvdC 0LPQviDQu9C 0YLQtdGA0LXQudC90L7Qs9C INCx0LjQu9C10YLQsA0KW2hyPWRhc2hlZCAvXQ0KW2Jd0JfQvtC70L7RgtCw0Y8g0L/QvtC00LrQvtCy0LBbL2JdICDQktCT0JsgNCDQodC/0L7RgNGCIC0g0JDQu9Cz0L7RgNC40YLQvCDihJYxDQrihJYg0LHQuNC70LXRgtCwIFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMDAwMDc0MDM5MDQzWy9maWVsZF0NCtCi0LjRgNCw0LYg4oSWIFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMzY5Wy9maWVsZF0NCtCh0LzQvtGC0YDQuNGC0LUg0LIg0LLQvtGB0LrRgNC10YHQtdC90YzQtSwg0LIgODoyMCDQvdCwINCd0KLQkiwNCnd3dy5zdG9sb3RvLnJ1DQrQo9C90LjQutCw0LvRjNC90YvQuSDQutC70Y7RhzogW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF02MjExMDkyMzE2Wy9maWVsZF0NCltiYXJjb2RlXTYyMTEwOTIzMTZbL2JhcmNvZGVdDQpbaHI9ZGFzaGVkIC9dDQrQptCV0J3QkCDQmNCi0J7Qk9CeOiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTEwMC4wMFsvZmllbGRdINGA0YPQsS4NCltocj1kYXNoZWQgL10NCltiYXJjb2RlXTc5Mjk2MzQ5NTUwWy9iYXJjb2RlXQ0KW3NpemU9c21hbGxd0J3QvtC80LXRgCDRgtC10LvQtdGE0L7QvdCwOiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XSs3ICg5MjkpIDYzNC05NS01MFsvZmllbGRdWy9zaXplXQ0KW2hyPWRhc2hlZCAvXQ0K0KLQtdGF0L3QvtC70L7Qs9C40YfQtdGB0LrQuNC5IOKEljogW2ZpZWxkIHdpZHRoPTUgYWxpZ249bGVmdF00NzEyOVsvZmllbGRdDQrQotC10YDQvNC40L3QsNC7IOKEliBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTEzMDQ5NTg3NFsvZmllbGRdDQpbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTIzLzA5LzIwMjIgMTA6MTQ6MThbL2ZpZWxkXSDQnNCh0JoNCtCg0L7Qt9GL0LPRgNGL0Ygg0YLQuNGA0LDQttCwOiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTI0LzA5LzIwMjJbL2ZpZWxkXSDQnNCh0JoNCltocj1kYXNoZWQgL10NCtCT0L7RgNGP0YfQsNGPINC70LjQvdC40Y8g0KPRh9Cw0YHRgtC90LjQutCwIDggOTAwIDU1NS0wMC01NQ0K0JjQvdGE0L7RgNC80LDRhtC40Y8g0L4g0LHQuNC70LXRgtC1IFtiXXd3dy5zdG9sb3RvLnJ1L2JpbGV0Wy9iXQ0KWy9jZW50ZXJd"</RECEIPT>
+</MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:14:18:220 2c5be849-7fdc-4a76-bd11-f393aa2144cf - Ответ  
+ <MOEStolotoResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><TRANSACTION_FLAGS>0</TRANSACTION_FLAGS><TICKET_REGISTRATION_TIME>1663917258</TICKET_REGISTRATION_TIME><FIRST_DRAW_ID>369</FIRST_DRAW_ID><LAST_DRAW_ID>369</LAST_DRAW_ID><FIRST_DRAW_TIME>1664029800</FIRST_DRAW_TIME><TICKET_NUMBER>47129</TICKET_NUMBER><TICKET_ID>6211092316</TICKET_ID><PRICE_RETURNED>10000</PRICE_RETURNED><MIN_COLUMN_PRICE>10000</MIN_COLUMN_PRICE><COLUMNS_NUMBER>1</COLUMNS_NUMBER><BET_BINGO>"22#34#40#58#75#39#45#60#72#89#03#18#27#51#84*10#44#62#78#88#25#32#50#61#87#08#12#41#52#70"</BET_BINGO><BARCODE_PREGEN>"71150000740390439"</BARCODE_PREGEN><BLANK_CODE>"000074039043"</BLANK_CODE><RECEIPT>Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Золотая подкова  ВГЛ 4 Спорт - Алгоритм №1
+№ билета 000074039043
+Тираж № 369
+Смотрите в воскресенье, в 8:20 на НТВ,
+www.stoloto.ru
+Уникальный ключ: 6211092316
+&lt;barcode&gt;6211092316&lt;/barcode&gt;
+
+ЦЕНА ИТОГО: 100.00 руб.
+
+&lt;barcode&gt;79296349550&lt;/barcode&gt;
+Номер телефона: +7 (929) 634-95-50
+
+Технологический №: 47129
+Терминал № 130495874
+23/09/2022 10:14:18 МСК
+Розыгрыш тиража: 24/09/2022 МСК
+
+Горячая линия Участника 8 900 555-00-55
+Информация о билете www.stoloto.ru/bilet
+</RECEIPT><RECEIPT_HTML>&lt;div class="recTop"&gt;&lt;p&gt;Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Золотая подкова&lt;/p&gt;&lt;/div&gt;&lt;p&gt;ВГЛ 4 Спорт - Алгоритм №1&lt;/p&gt;&lt;p&gt;№ билета 000074039043&lt;/p&gt;&lt;p&gt;Тираж № 369&lt;/p&gt;&lt;p&gt;Смотрите в воскресенье, в 8:20 на НТВ,&lt;/p&gt;&lt;p&gt;www.stoloto.ru&lt;/p&gt;&lt;p&gt;&lt;b&gt;Уникальный ключ:&lt;/b&gt; 6211092316&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;ЦЕНА ИТОГО:&lt;/b&gt; 100.00 руб.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Номер телефона:&lt;/b&gt; +7 (929) 634-95-50&lt;/p&gt;&lt;p&gt;&lt;b&gt;Технологический №:&lt;/b&gt; 47129&lt;/p&gt;&lt;p&gt;Терминал № 130495874&lt;/p&gt;&lt;p&gt;23/09/2022 10:14:18 МСК&lt;/p&gt;&lt;p&gt;&lt;b&gt;Розыгрыш тиража:&lt;/b&gt; 24/09/2022 МСК&lt;/p&gt;&lt;p&gt;Горячая линия Участника 8 900 555-00-55&lt;/p&gt;&lt;p&gt;Информация о билете www.stoloto.ru/bilet&lt;/p&gt;</RECEIPT_HTML><KEY_CANCEL>117</KEY_CANCEL></MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:16:04:432 10f194ca-bb41-4fdf-8475-2e8afedd1f65 - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495874</TerminalNumber><Version>1</Version><GameId>7115</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 10:16:04:433 10f194ca-bb41-4fdf-8475-2e8afedd1f65 - Входная строка запроса в сотолото: TERMINAL_ID=130495874&VERSION=1&GAME_ID=7115&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 10:16:04:433 fe421136-c42e-409e-8c5f-76d21bd3a2a2 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 10:16:04:436 325d3bc4-395e-4935-9bd2-b495181fe64c - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:16:04:438 325d3bc4-395e-4935-9bd2-b495181fe64c - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:16:04:439 325d3bc4-395e-4935-9bd2-b495181fe64c - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:16:04:439 fe421136-c42e-409e-8c5f-76d21bd3a2a2 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:16:04:439 fe421136-c42e-409e-8c5f-76d21bd3a2a2 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:16:04:706 fe421136-c42e-409e-8c5f-76d21bd3a2a2 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:16:04:706 10f194ca-bb41-4fdf-8475-2e8afedd1f65 - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;369&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-17T16:40:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T16:40:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T17:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;10000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;466361650&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;0&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;90&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:16:04:706 10f194ca-bb41-4fdf-8475-2e8afedd1f65 - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;369&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-17T16:40:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T16:40:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T17:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;10000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;466361650&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;0&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;90&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:16:23:785 04ac9814-3aac-47bb-8498-8765c7bd546d - Запрос в столото на продажу лотерейного билета (купона) 
+ <MOEStolotoRequest><Action>payment</Action><TerminalNumber>130495874</TerminalNumber><Barcode>71150000740390421</Barcode><GameId>7115</GameId><PlayerInfo>79296349550</PlayerInfo><PriceRequested>10000</PriceRequested><ExternalTransactionId>119</ExternalTransactionId><BetFlags>64</BetFlags><BetMultiplier>1</BetMultiplier><DrawsNumber>1</DrawsNumber><PlayerInfoId>1</PlayerInfoId><RequestTime>1</RequestTime><TimeZone>+4</TimeZone><PreferredDraw>369</PreferredDraw></MOEStolotoRequest>
+IP: ::1 Время: 23.09.2022 10:16:23:785 04ac9814-3aac-47bb-8498-8765c7bd546d - Входная строка запроса в сотолото: TERMINAL_ID=130495874&BET="71150000740390421"&BET_FLAGS=64&BET_MULTIPLIER=1&DRAWS_NUMBER=1&GAME_ID=7115&PLAYER_INFO="79296349550"&PLAYER_INFO_ID=1&PRICE_REQUESTED=10000&REQUEST_TIME=1&EXTERNAL_TRANSACTION_ID=119&TZ="+4"&PREFERRED_DRAW=369
+IP: ::1 Время: 23.09.2022 10:16:23:786 94e228d1-d17a-43a5-beba-d20732e5c295 - Отправляем запрос на - https://agent.stolotogate.ru:51443//prov/cgi_eprov?id=28
+IP: ::1 Время: 23.09.2022 10:16:23:789 2a77dbae-19f9-48c1-9821-9574bd4f2f24 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:16:23:790 2a77dbae-19f9-48c1-9821-9574bd4f2f24 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:16:23:790 2a77dbae-19f9-48c1-9821-9574bd4f2f24 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:16:23:791 94e228d1-d17a-43a5-beba-d20732e5c295 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:16:23:791 94e228d1-d17a-43a5-beba-d20732e5c295 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:16:24:066 94e228d1-d17a-43a5-beba-d20732e5c295 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:16:24:066 04ac9814-3aac-47bb-8498-8765c7bd546d - Ответ от столото 119 : <MOEStolotoResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <TRANSACTION_FLAGS>0</TRANSACTION_FLAGS>
+  <TICKET_REGISTRATION_TIME>1663917384</TICKET_REGISTRATION_TIME>
+  <FIRST_DRAW_ID>369</FIRST_DRAW_ID>
+  <LAST_DRAW_ID>369</LAST_DRAW_ID>
+  <FIRST_DRAW_TIME>1664029800</FIRST_DRAW_TIME>
+  <TICKET_NUMBER>47156</TICKET_NUMBER>
+  <TICKET_ID>6211096963</TICKET_ID>
+  <PRICE_RETURNED>10000</PRICE_RETURNED>
+  <MIN_COLUMN_PRICE>10000</MIN_COLUMN_PRICE>
+  <COLUMNS_NUMBER>1</COLUMNS_NUMBER>
+  <BET_BINGO>"02#16#56#74#86#01#36#47#55#67#17#23#31#63#80*15#26#33#49#68#13#20#48#53#73#05#59#64#76#81"</BET_BINGO>
+  <BLANK_CODE>"000074039042"</BLANK_CODE>
+  <BARCODE_PREGEN>"71150000740390421"</BARCODE_PREGEN>
+  <RECEIPT>"W2NlbnRlcl3Qo9Cy0LXQtNC 0LzQu9C10L3QuNC1INC INC/0YDQuNGR0LzQtSDQu9C 0YLQtdGA0LXQudC90L7QuSDRgdGC0LDQstC60Lgg0LggDQrRgNC10LPQuNGB0YLRgNCw0YbQuNC4INGN0LvQtdC60YLRgNC 0L3QvdC 0LPQviDQu9C 0YLQtdGA0LXQudC90L7Qs9C INCx0LjQu9C10YLQsA0KW2hyPWRhc2hlZCAvXQ0KW2Jd0JfQvtC70L7RgtCw0Y8g0L/QvtC00LrQvtCy0LBbL2JdICDQktCT0JsgNCDQodC/0L7RgNGCIC0g0JDQu9Cz0L7RgNC40YLQvCDihJYxDQrihJYg0LHQuNC70LXRgtCwIFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMDAwMDc0MDM5MDQyWy9maWVsZF0NCtCi0LjRgNCw0LYg4oSWIFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMzY5Wy9maWVsZF0NCtCh0LzQvtGC0YDQuNGC0LUg0LIg0LLQvtGB0LrRgNC10YHQtdC90YzQtSwg0LIgODoyMCDQvdCwINCd0KLQkiwNCnd3dy5zdG9sb3RvLnJ1DQrQo9C90LjQutCw0LvRjNC90YvQuSDQutC70Y7RhzogW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF02MjExMDk2OTYzWy9maWVsZF0NCltiYXJjb2RlXTYyMTEwOTY5NjNbL2JhcmNvZGVdDQpbaHI9ZGFzaGVkIC9dDQrQptCV0J3QkCDQmNCi0J7Qk9CeOiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTEwMC4wMFsvZmllbGRdINGA0YPQsS4NCltocj1kYXNoZWQgL10NCltiYXJjb2RlXTc5Mjk2MzQ5NTUwWy9iYXJjb2RlXQ0KW3NpemU9c21hbGxd0J3QvtC80LXRgCDRgtC10LvQtdGE0L7QvdCwOiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XSs3ICg5MjkpIDYzNC05NS01MFsvZmllbGRdWy9zaXplXQ0KW2hyPWRhc2hlZCAvXQ0K0KLQtdGF0L3QvtC70L7Qs9C40YfQtdGB0LrQuNC5IOKEljogW2ZpZWxkIHdpZHRoPTUgYWxpZ249bGVmdF00NzE1NlsvZmllbGRdDQrQotC10YDQvNC40L3QsNC7IOKEliBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTEzMDQ5NTg3NFsvZmllbGRdDQpbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTIzLzA5LzIwMjIgMTA6MTY6MjRbL2ZpZWxkXSDQnNCh0JoNCtCg0L7Qt9GL0LPRgNGL0Ygg0YLQuNGA0LDQttCwOiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTI0LzA5LzIwMjJbL2ZpZWxkXSDQnNCh0JoNCltocj1kYXNoZWQgL10NCtCT0L7RgNGP0YfQsNGPINC70LjQvdC40Y8g0KPRh9Cw0YHRgtC90LjQutCwIDggOTAwIDU1NS0wMC01NQ0K0JjQvdGE0L7RgNC80LDRhtC40Y8g0L4g0LHQuNC70LXRgtC1IFtiXXd3dy5zdG9sb3RvLnJ1L2JpbGV0Wy9iXQ0KWy9jZW50ZXJd"</RECEIPT>
+</MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:16:24:067 04ac9814-3aac-47bb-8498-8765c7bd546d - Ответ  
+ <MOEStolotoResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><TRANSACTION_FLAGS>0</TRANSACTION_FLAGS><TICKET_REGISTRATION_TIME>1663917384</TICKET_REGISTRATION_TIME><FIRST_DRAW_ID>369</FIRST_DRAW_ID><LAST_DRAW_ID>369</LAST_DRAW_ID><FIRST_DRAW_TIME>1664029800</FIRST_DRAW_TIME><TICKET_NUMBER>47156</TICKET_NUMBER><TICKET_ID>6211096963</TICKET_ID><PRICE_RETURNED>10000</PRICE_RETURNED><MIN_COLUMN_PRICE>10000</MIN_COLUMN_PRICE><COLUMNS_NUMBER>1</COLUMNS_NUMBER><BET_BINGO>"02#16#56#74#86#01#36#47#55#67#17#23#31#63#80*15#26#33#49#68#13#20#48#53#73#05#59#64#76#81"</BET_BINGO><BARCODE_PREGEN>"71150000740390421"</BARCODE_PREGEN><BLANK_CODE>"000074039042"</BLANK_CODE><RECEIPT>Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Золотая подкова  ВГЛ 4 Спорт - Алгоритм №1
+№ билета 000074039042
+Тираж № 369
+Смотрите в воскресенье, в 8:20 на НТВ,
+www.stoloto.ru
+Уникальный ключ: 6211096963
+&lt;barcode&gt;6211096963&lt;/barcode&gt;
+
+ЦЕНА ИТОГО: 100.00 руб.
+
+&lt;barcode&gt;79296349550&lt;/barcode&gt;
+Номер телефона: +7 (929) 634-95-50
+
+Технологический №: 47156
+Терминал № 130495874
+23/09/2022 10:16:24 МСК
+Розыгрыш тиража: 24/09/2022 МСК
+
+Горячая линия Участника 8 900 555-00-55
+Информация о билете www.stoloto.ru/bilet
+</RECEIPT><RECEIPT_HTML>&lt;div class="recTop"&gt;&lt;p&gt;Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Золотая подкова&lt;/p&gt;&lt;/div&gt;&lt;p&gt;ВГЛ 4 Спорт - Алгоритм №1&lt;/p&gt;&lt;p&gt;№ билета 000074039042&lt;/p&gt;&lt;p&gt;Тираж № 369&lt;/p&gt;&lt;p&gt;Смотрите в воскресенье, в 8:20 на НТВ,&lt;/p&gt;&lt;p&gt;www.stoloto.ru&lt;/p&gt;&lt;p&gt;&lt;b&gt;Уникальный ключ:&lt;/b&gt; 6211096963&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;ЦЕНА ИТОГО:&lt;/b&gt; 100.00 руб.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Номер телефона:&lt;/b&gt; +7 (929) 634-95-50&lt;/p&gt;&lt;p&gt;&lt;b&gt;Технологический №:&lt;/b&gt; 47156&lt;/p&gt;&lt;p&gt;Терминал № 130495874&lt;/p&gt;&lt;p&gt;23/09/2022 10:16:24 МСК&lt;/p&gt;&lt;p&gt;&lt;b&gt;Розыгрыш тиража:&lt;/b&gt; 24/09/2022 МСК&lt;/p&gt;&lt;p&gt;Горячая линия Участника 8 900 555-00-55&lt;/p&gt;&lt;p&gt;Информация о билете www.stoloto.ru/bilet&lt;/p&gt;</RECEIPT_HTML><KEY_CANCEL>119</KEY_CANCEL></MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:16:26:518 3950caab-0bdb-4d31-a9a6-ba576b58e0b7 - Запрос в столото на продажу лотерейного билета (купона) 
+ <MOEStolotoCancelRequest><Action>cancel</Action><TerminalNumber>130495874</TerminalNumber><ExternalTransactionId>120</ExternalTransactionId><KeyCancel>119</KeyCancel><TicketId>0</TicketId><IdCancelType>5</IdCancelType><BarcodeOnCancel>00000 00000 00000 00000 00000 00000 00000</BarcodeOnCancel><PinCancel>0</PinCancel><RequestTime>1</RequestTime></MOEStolotoCancelRequest>
+IP: ::1 Время: 23.09.2022 10:16:26:518 3950caab-0bdb-4d31-a9a6-ba576b58e0b7 - Входная строка запроса в сотолото: TERMINAL_ID=130495874&REQUEST_TIME=1&EXTERNAL_TRANSACTION_ID=120&ID_CANCEL_TYPE=5&TICKET_ID=0&KEY_CANCEL=119&BARCODE="00000 00000 00000 00000 00000 00000 00000"&PIN_CANCEL=0&
+IP: ::1 Время: 23.09.2022 10:16:26:519 81696157-0b2f-4394-9299-e4e069a92400 - Отправляем запрос на - https://agent.stolotogate.ru:51443//prov/cgi_eprov?id=14
+IP: ::1 Время: 23.09.2022 10:16:26:522 c4873ff8-b3fa-4d09-bba4-0c03910ffbee - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:16:26:523 c4873ff8-b3fa-4d09-bba4-0c03910ffbee - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:16:26:523 c4873ff8-b3fa-4d09-bba4-0c03910ffbee - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:16:26:524 81696157-0b2f-4394-9299-e4e069a92400 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:16:26:524 81696157-0b2f-4394-9299-e4e069a92400 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:16:26:608 81696157-0b2f-4394-9299-e4e069a92400 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:16:26:608 3950caab-0bdb-4d31-a9a6-ba576b58e0b7 - Ответ от столото 120 : <MOEStolotoResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <TRANSACTION_FLAGS>0</TRANSACTION_FLAGS>
+</MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:16:26:609 3950caab-0bdb-4d31-a9a6-ba576b58e0b7 - Ответ  
+ <MOEStolotoResponse><Message>Успешное выполнение операции</Message><Result>2</Result><REQUEST_SIGN>0</REQUEST_SIGN><TRANSACTION_FLAGS>0</TRANSACTION_FLAGS></MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:16:39:212 ab0a1664-b333-461e-88eb-c89e4898344b - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495874</TerminalNumber><Version>1</Version><GameId>7115</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 10:16:39:212 ab0a1664-b333-461e-88eb-c89e4898344b - Входная строка запроса в сотолото: TERMINAL_ID=130495874&VERSION=1&GAME_ID=7115&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 10:16:39:213 09e46b51-fd6f-4f85-973b-2c7cd29e6dc6 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 10:16:39:216 e4a8838b-e7e3-4389-8f8a-36d1bb2d5ad9 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:16:39:218 e4a8838b-e7e3-4389-8f8a-36d1bb2d5ad9 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:16:39:218 e4a8838b-e7e3-4389-8f8a-36d1bb2d5ad9 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:16:39:218 09e46b51-fd6f-4f85-973b-2c7cd29e6dc6 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:16:39:218 09e46b51-fd6f-4f85-973b-2c7cd29e6dc6 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:16:39:450 09e46b51-fd6f-4f85-973b-2c7cd29e6dc6 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:16:39:450 ab0a1664-b333-461e-88eb-c89e4898344b - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;369&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-17T16:40:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T16:40:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T17:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;10000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;466361650&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;0&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;90&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:16:39:451 ab0a1664-b333-461e-88eb-c89e4898344b - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;369&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-17T16:40:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T16:40:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T17:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;10000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;466361650&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;0&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;90&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:16:56:148 3e232c15-00fc-4c58-9f24-a459cf8a67f2 - Запрос в столото на продажу лотерейного билета (купона) 
+ <MOEStolotoRequest><Action>payment</Action><TerminalNumber>130495874</TerminalNumber><Barcode>71150000740390421</Barcode><GameId>7115</GameId><PlayerInfo>79296349550</PlayerInfo><PriceRequested>10000</PriceRequested><ExternalTransactionId>122</ExternalTransactionId><BetFlags>64</BetFlags><BetMultiplier>1</BetMultiplier><DrawsNumber>1</DrawsNumber><PlayerInfoId>1</PlayerInfoId><RequestTime>1</RequestTime><TimeZone>+4</TimeZone><PreferredDraw>369</PreferredDraw></MOEStolotoRequest>
+IP: ::1 Время: 23.09.2022 10:16:56:148 3e232c15-00fc-4c58-9f24-a459cf8a67f2 - Входная строка запроса в сотолото: TERMINAL_ID=130495874&BET="71150000740390421"&BET_FLAGS=64&BET_MULTIPLIER=1&DRAWS_NUMBER=1&GAME_ID=7115&PLAYER_INFO="79296349550"&PLAYER_INFO_ID=1&PRICE_REQUESTED=10000&REQUEST_TIME=1&EXTERNAL_TRANSACTION_ID=122&TZ="+4"&PREFERRED_DRAW=369
+IP: ::1 Время: 23.09.2022 10:16:56:149 36fea41f-481c-422c-aa60-1782841350aa - Отправляем запрос на - https://agent.stolotogate.ru:51443//prov/cgi_eprov?id=28
+IP: ::1 Время: 23.09.2022 10:16:56:153 6f334ba6-c8da-4971-9b6c-6f6ca77f03e2 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:16:56:154 6f334ba6-c8da-4971-9b6c-6f6ca77f03e2 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:16:56:154 6f334ba6-c8da-4971-9b6c-6f6ca77f03e2 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:16:56:154 36fea41f-481c-422c-aa60-1782841350aa - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:16:56:154 36fea41f-481c-422c-aa60-1782841350aa - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:16:56:389 36fea41f-481c-422c-aa60-1782841350aa - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:16:56:390 3e232c15-00fc-4c58-9f24-a459cf8a67f2 - Ответ от столото 122 : <MOEStolotoResponse>
+  <REQUEST_SIGN>4512</REQUEST_SIGN>
+  <TRANSACTION_FLAGS>0</TRANSACTION_FLAGS>
+  <TICKET_REGISTRATION_TIME>0</TICKET_REGISTRATION_TIME>
+  <FIRST_DRAW_ID>0</FIRST_DRAW_ID>
+  <LAST_DRAW_ID>0</LAST_DRAW_ID>
+  <FIRST_DRAW_TIME>0</FIRST_DRAW_TIME>
+  <TICKET_NUMBER>0</TICKET_NUMBER>
+  <TICKET_ID>0</TICKET_ID>
+  <PRICE_RETURNED>0</PRICE_RETURNED>
+  <MIN_COLUMN_PRICE>10000</MIN_COLUMN_PRICE>
+  <COLUMNS_NUMBER>1</COLUMNS_NUMBER>
+</MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:16:56:390 3e232c15-00fc-4c58-9f24-a459cf8a67f2 - Ответ  
+ <MOEStolotoResponse><Message>Билет уже продан</Message><Result>2</Result><REQUEST_SIGN>4512</REQUEST_SIGN><TRANSACTION_FLAGS>0</TRANSACTION_FLAGS><TICKET_REGISTRATION_TIME>0</TICKET_REGISTRATION_TIME><FIRST_DRAW_ID>0</FIRST_DRAW_ID><LAST_DRAW_ID>0</LAST_DRAW_ID><FIRST_DRAW_TIME>0</FIRST_DRAW_TIME><TICKET_NUMBER>0</TICKET_NUMBER><TICKET_ID>0</TICKET_ID><PRICE_RETURNED>0</PRICE_RETURNED><MIN_COLUMN_PRICE>10000</MIN_COLUMN_PRICE><COLUMNS_NUMBER>1</COLUMNS_NUMBER><KEY_CANCEL>122</KEY_CANCEL></MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:17:04:821 54def491-62af-40fa-9ea0-096e7b9bfe14 - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495874</TerminalNumber><Version>1</Version><GameId>7115</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 10:17:04:821 54def491-62af-40fa-9ea0-096e7b9bfe14 - Входная строка запроса в сотолото: TERMINAL_ID=130495874&VERSION=1&GAME_ID=7115&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 10:17:04:822 ffa5c3e5-04c5-4f06-8839-0dc2b9a88468 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 10:17:04:824 6ad45d2b-43c9-4011-9fcf-3dffb695d9fc - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:17:04:826 6ad45d2b-43c9-4011-9fcf-3dffb695d9fc - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:17:04:826 6ad45d2b-43c9-4011-9fcf-3dffb695d9fc - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:17:04:826 ffa5c3e5-04c5-4f06-8839-0dc2b9a88468 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:17:04:827 ffa5c3e5-04c5-4f06-8839-0dc2b9a88468 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:17:05:075 ffa5c3e5-04c5-4f06-8839-0dc2b9a88468 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:17:05:076 54def491-62af-40fa-9ea0-096e7b9bfe14 - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;369&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-17T16:40:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T16:40:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T17:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;10000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;466361650&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;0&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;90&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:17:05:076 54def491-62af-40fa-9ea0-096e7b9bfe14 - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;369&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-17T16:40:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T16:40:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T17:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;10000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;466361650&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;0&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;90&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:17:19:644 2be65641-0364-44ce-925f-9a73986aa329 - Запрос в столото на продажу лотерейного билета (купона) 
+ <MOEStolotoRequest><Action>payment</Action><TerminalNumber>130495874</TerminalNumber><Barcode>71150000740390413</Barcode><GameId>7115</GameId><PlayerInfo>79296349550</PlayerInfo><PriceRequested>10000</PriceRequested><ExternalTransactionId>124</ExternalTransactionId><BetFlags>64</BetFlags><BetMultiplier>1</BetMultiplier><DrawsNumber>1</DrawsNumber><PlayerInfoId>1</PlayerInfoId><RequestTime>1</RequestTime><TimeZone>+4</TimeZone><PreferredDraw>369</PreferredDraw></MOEStolotoRequest>
+IP: ::1 Время: 23.09.2022 10:17:19:644 2be65641-0364-44ce-925f-9a73986aa329 - Входная строка запроса в сотолото: TERMINAL_ID=130495874&BET="71150000740390413"&BET_FLAGS=64&BET_MULTIPLIER=1&DRAWS_NUMBER=1&GAME_ID=7115&PLAYER_INFO="79296349550"&PLAYER_INFO_ID=1&PRICE_REQUESTED=10000&REQUEST_TIME=1&EXTERNAL_TRANSACTION_ID=124&TZ="+4"&PREFERRED_DRAW=369
+IP: ::1 Время: 23.09.2022 10:17:19:645 91b7f350-a758-46be-9246-14d2a610eadd - Отправляем запрос на - https://agent.stolotogate.ru:51443//prov/cgi_eprov?id=28
+IP: ::1 Время: 23.09.2022 10:17:19:648 87304bb0-e335-4a08-8af2-b21cf65bbb29 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:17:19:650 87304bb0-e335-4a08-8af2-b21cf65bbb29 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:17:19:650 87304bb0-e335-4a08-8af2-b21cf65bbb29 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:17:19:651 91b7f350-a758-46be-9246-14d2a610eadd - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:17:19:651 91b7f350-a758-46be-9246-14d2a610eadd - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:17:19:892 91b7f350-a758-46be-9246-14d2a610eadd - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:17:19:892 2be65641-0364-44ce-925f-9a73986aa329 - Ответ от столото 124 : <MOEStolotoResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <TRANSACTION_FLAGS>0</TRANSACTION_FLAGS>
+  <TICKET_REGISTRATION_TIME>1663917439</TICKET_REGISTRATION_TIME>
+  <FIRST_DRAW_ID>369</FIRST_DRAW_ID>
+  <LAST_DRAW_ID>369</LAST_DRAW_ID>
+  <FIRST_DRAW_TIME>1664029800</FIRST_DRAW_TIME>
+  <TICKET_NUMBER>47169</TICKET_NUMBER>
+  <TICKET_ID>6211098832</TICKET_ID>
+  <PRICE_RETURNED>10000</PRICE_RETURNED>
+  <MIN_COLUMN_PRICE>10000</MIN_COLUMN_PRICE>
+  <COLUMNS_NUMBER>1</COLUMNS_NUMBER>
+  <BET_BINGO>"04#28#35#54#77#06#11#21#37#83#19#43#69#79#82*09#38#46#57#66#14#29#65#71#90#07#24#30#42#85"</BET_BINGO>
+  <BLANK_CODE>"000074039041"</BLANK_CODE>
+  <BARCODE_PREGEN>"71150000740390413"</BARCODE_PREGEN>
+  <RECEIPT>"W2NlbnRlcl3Qo9Cy0LXQtNC 0LzQu9C10L3QuNC1INC INC/0YDQuNGR0LzQtSDQu9C 0YLQtdGA0LXQudC90L7QuSDRgdGC0LDQstC60Lgg0LggDQrRgNC10LPQuNGB0YLRgNCw0YbQuNC4INGN0LvQtdC60YLRgNC 0L3QvdC 0LPQviDQu9C 0YLQtdGA0LXQudC90L7Qs9C INCx0LjQu9C10YLQsA0KW2hyPWRhc2hlZCAvXQ0KW2Jd0JfQvtC70L7RgtCw0Y8g0L/QvtC00LrQvtCy0LBbL2JdICDQktCT0JsgNCDQodC/0L7RgNGCIC0g0JDQu9Cz0L7RgNC40YLQvCDihJYxDQrihJYg0LHQuNC70LXRgtCwIFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMDAwMDc0MDM5MDQxWy9maWVsZF0NCtCi0LjRgNCw0LYg4oSWIFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMzY5Wy9maWVsZF0NCtCh0LzQvtGC0YDQuNGC0LUg0LIg0LLQvtGB0LrRgNC10YHQtdC90YzQtSwg0LIgODoyMCDQvdCwINCd0KLQkiwNCnd3dy5zdG9sb3RvLnJ1DQrQo9C90LjQutCw0LvRjNC90YvQuSDQutC70Y7RhzogW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF02MjExMDk4ODMyWy9maWVsZF0NCltiYXJjb2RlXTYyMTEwOTg4MzJbL2JhcmNvZGVdDQpbaHI9ZGFzaGVkIC9dDQrQptCV0J3QkCDQmNCi0J7Qk9CeOiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTEwMC4wMFsvZmllbGRdINGA0YPQsS4NCltocj1kYXNoZWQgL10NCltiYXJjb2RlXTc5Mjk2MzQ5NTUwWy9iYXJjb2RlXQ0KW3NpemU9c21hbGxd0J3QvtC80LXRgCDRgtC10LvQtdGE0L7QvdCwOiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XSs3ICg5MjkpIDYzNC05NS01MFsvZmllbGRdWy9zaXplXQ0KW2hyPWRhc2hlZCAvXQ0K0KLQtdGF0L3QvtC70L7Qs9C40YfQtdGB0LrQuNC5IOKEljogW2ZpZWxkIHdpZHRoPTUgYWxpZ249bGVmdF00NzE2OVsvZmllbGRdDQrQotC10YDQvNC40L3QsNC7IOKEliBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTEzMDQ5NTg3NFsvZmllbGRdDQpbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTIzLzA5LzIwMjIgMTA6MTc6MTlbL2ZpZWxkXSDQnNCh0JoNCtCg0L7Qt9GL0LPRgNGL0Ygg0YLQuNGA0LDQttCwOiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTI0LzA5LzIwMjJbL2ZpZWxkXSDQnNCh0JoNCltocj1kYXNoZWQgL10NCtCT0L7RgNGP0YfQsNGPINC70LjQvdC40Y8g0KPRh9Cw0YHRgtC90LjQutCwIDggOTAwIDU1NS0wMC01NQ0K0JjQvdGE0L7RgNC80LDRhtC40Y8g0L4g0LHQuNC70LXRgtC1IFtiXXd3dy5zdG9sb3RvLnJ1L2JpbGV0Wy9iXQ0KWy9jZW50ZXJd"</RECEIPT>
+</MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:17:19:893 2be65641-0364-44ce-925f-9a73986aa329 - Ответ  
+ <MOEStolotoResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><TRANSACTION_FLAGS>0</TRANSACTION_FLAGS><TICKET_REGISTRATION_TIME>1663917439</TICKET_REGISTRATION_TIME><FIRST_DRAW_ID>369</FIRST_DRAW_ID><LAST_DRAW_ID>369</LAST_DRAW_ID><FIRST_DRAW_TIME>1664029800</FIRST_DRAW_TIME><TICKET_NUMBER>47169</TICKET_NUMBER><TICKET_ID>6211098832</TICKET_ID><PRICE_RETURNED>10000</PRICE_RETURNED><MIN_COLUMN_PRICE>10000</MIN_COLUMN_PRICE><COLUMNS_NUMBER>1</COLUMNS_NUMBER><BET_BINGO>"04#28#35#54#77#06#11#21#37#83#19#43#69#79#82*09#38#46#57#66#14#29#65#71#90#07#24#30#42#85"</BET_BINGO><BARCODE_PREGEN>"71150000740390413"</BARCODE_PREGEN><BLANK_CODE>"000074039041"</BLANK_CODE><RECEIPT>Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Золотая подкова  ВГЛ 4 Спорт - Алгоритм №1
+№ билета 000074039041
+Тираж № 369
+Смотрите в воскресенье, в 8:20 на НТВ,
+www.stoloto.ru
+Уникальный ключ: 6211098832
+&lt;barcode&gt;6211098832&lt;/barcode&gt;
+
+ЦЕНА ИТОГО: 100.00 руб.
+
+&lt;barcode&gt;79296349550&lt;/barcode&gt;
+Номер телефона: +7 (929) 634-95-50
+
+Технологический №: 47169
+Терминал № 130495874
+23/09/2022 10:17:19 МСК
+Розыгрыш тиража: 24/09/2022 МСК
+
+Горячая линия Участника 8 900 555-00-55
+Информация о билете www.stoloto.ru/bilet
+</RECEIPT><RECEIPT_HTML>&lt;div class="recTop"&gt;&lt;p&gt;Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Золотая подкова&lt;/p&gt;&lt;/div&gt;&lt;p&gt;ВГЛ 4 Спорт - Алгоритм №1&lt;/p&gt;&lt;p&gt;№ билета 000074039041&lt;/p&gt;&lt;p&gt;Тираж № 369&lt;/p&gt;&lt;p&gt;Смотрите в воскресенье, в 8:20 на НТВ,&lt;/p&gt;&lt;p&gt;www.stoloto.ru&lt;/p&gt;&lt;p&gt;&lt;b&gt;Уникальный ключ:&lt;/b&gt; 6211098832&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;ЦЕНА ИТОГО:&lt;/b&gt; 100.00 руб.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Номер телефона:&lt;/b&gt; +7 (929) 634-95-50&lt;/p&gt;&lt;p&gt;&lt;b&gt;Технологический №:&lt;/b&gt; 47169&lt;/p&gt;&lt;p&gt;Терминал № 130495874&lt;/p&gt;&lt;p&gt;23/09/2022 10:17:19 МСК&lt;/p&gt;&lt;p&gt;&lt;b&gt;Розыгрыш тиража:&lt;/b&gt; 24/09/2022 МСК&lt;/p&gt;&lt;p&gt;Горячая линия Участника 8 900 555-00-55&lt;/p&gt;&lt;p&gt;Информация о билете www.stoloto.ru/bilet&lt;/p&gt;</RECEIPT_HTML><KEY_CANCEL>124</KEY_CANCEL></MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:18:03:894 b2cb92c6-f0d4-4e75-86df-44f89b881fcf - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495874</TerminalNumber><Version>1</Version><GameId>5101</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 10:18:03:894 b2cb92c6-f0d4-4e75-86df-44f89b881fcf - Входная строка запроса в сотолото: TERMINAL_ID=130495874&VERSION=1&GAME_ID=5101&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 10:18:03:895 04ac0c89-6fc3-42c2-b42d-76aca0b26cfc - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 10:18:03:898 705248f8-4800-4f00-91c3-130b9f417659 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:18:03:900 705248f8-4800-4f00-91c3-130b9f417659 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:18:03:900 705248f8-4800-4f00-91c3-130b9f417659 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:18:03:901 04ac0c89-6fc3-42c2-b42d-76aca0b26cfc - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:18:03:901 04ac0c89-6fc3-42c2-b42d-76aca0b26cfc - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:18:04:162 04ac0c89-6fc3-42c2-b42d-76aca0b26cfc - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:18:04:163 b2cb92c6-f0d4-4e75-86df-44f89b881fcf - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;7798&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-22T23:54:00&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-23T10:55:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-23T11:00:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;3000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;2505816500&lt;/jackpot&gt;
+    &lt;fields_number&gt;6&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;27132&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+      &lt;number&gt;2&lt;/number&gt;
+      &lt;number&gt;3&lt;/number&gt;
+      &lt;number&gt;4&lt;/number&gt;
+      &lt;number&gt;5&lt;/number&gt;
+      &lt;number&gt;6&lt;/number&gt;
+      &lt;number&gt;7&lt;/number&gt;
+      &lt;number&gt;8&lt;/number&gt;
+      &lt;number&gt;9&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;6&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;6&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;19&lt;/max_choice_number&gt;
+        &lt;size&gt;45&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories&gt;
+      &lt;category&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;is_superprize&gt;true&lt;/is_superprize&gt;
+        &lt;jackpot&gt;2505816500&lt;/jackpot&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;2&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;3&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;4&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;5&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+    &lt;/categories&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:18:04:164 b2cb92c6-f0d4-4e75-86df-44f89b881fcf - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;7798&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-22T23:54:00&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-23T10:55:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-23T11:00:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;3000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;2505816500&lt;/jackpot&gt;
+    &lt;fields_number&gt;6&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;27132&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+      &lt;number&gt;2&lt;/number&gt;
+      &lt;number&gt;3&lt;/number&gt;
+      &lt;number&gt;4&lt;/number&gt;
+      &lt;number&gt;5&lt;/number&gt;
+      &lt;number&gt;6&lt;/number&gt;
+      &lt;number&gt;7&lt;/number&gt;
+      &lt;number&gt;8&lt;/number&gt;
+      &lt;number&gt;9&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;6&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;6&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;19&lt;/max_choice_number&gt;
+        &lt;size&gt;45&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories&gt;
+      &lt;category&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;is_superprize&gt;true&lt;/is_superprize&gt;
+        &lt;jackpot&gt;2505816500&lt;/jackpot&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;2&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;3&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;4&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;5&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+    &lt;/categories&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 10:18:21:133 0fb94767-d6ff-49fd-bb44-a1cc09df0f6e - Запрос в столото на продажу лотерейного билета (купона) 
+ <MOEStolotoRequest><Action>payment</Action><TerminalNumber>130495874</TerminalNumber><Barcode>51010000039057121</Barcode><GameId>5101</GameId><PlayerInfo>79296349550</PlayerInfo><PriceRequested>3000</PriceRequested><ExternalTransactionId>126</ExternalTransactionId><BetFlags>64</BetFlags><BetMultiplier>1</BetMultiplier><DrawsNumber>1</DrawsNumber><PlayerInfoId>1</PlayerInfoId><RequestTime>1</RequestTime><TimeZone>+4</TimeZone><PreferredDraw>7798</PreferredDraw></MOEStolotoRequest>
+IP: ::1 Время: 23.09.2022 10:18:21:134 0fb94767-d6ff-49fd-bb44-a1cc09df0f6e - Входная строка запроса в сотолото: TERMINAL_ID=130495874&BET="51010000039057121"&BET_FLAGS=64&BET_MULTIPLIER=1&DRAWS_NUMBER=1&GAME_ID=5101&PLAYER_INFO="79296349550"&PLAYER_INFO_ID=1&PRICE_REQUESTED=3000&REQUEST_TIME=1&EXTERNAL_TRANSACTION_ID=126&TZ="+4"&PREFERRED_DRAW=7798
+IP: ::1 Время: 23.09.2022 10:18:21:134 b6b28d48-db99-4bd5-b4bf-ae773788d131 - Отправляем запрос на - https://agent.stolotogate.ru:51443//prov/cgi_eprov?id=28
+IP: ::1 Время: 23.09.2022 10:18:21:137 aad426ec-0adf-4fc2-bbc1-7cd9f89bb4b1 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:18:21:139 aad426ec-0adf-4fc2-bbc1-7cd9f89bb4b1 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:18:21:139 aad426ec-0adf-4fc2-bbc1-7cd9f89bb4b1 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:18:21:139 b6b28d48-db99-4bd5-b4bf-ae773788d131 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:18:21:139 b6b28d48-db99-4bd5-b4bf-ae773788d131 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:18:21:389 b6b28d48-db99-4bd5-b4bf-ae773788d131 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:18:21:390 0fb94767-d6ff-49fd-bb44-a1cc09df0f6e - Ответ от столото 126 : <MOEStolotoResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <TRANSACTION_FLAGS>0</TRANSACTION_FLAGS>
+  <TICKET_REGISTRATION_TIME>1663917501</TICKET_REGISTRATION_TIME>
+  <FIRST_DRAW_ID>7798</FIRST_DRAW_ID>
+  <LAST_DRAW_ID>7798</LAST_DRAW_ID>
+  <FIRST_DRAW_TIME>1663920000</FIRST_DRAW_TIME>
+  <TICKET_NUMBER>35320</TICKET_NUMBER>
+  <TICKET_ID>6211101241</TICKET_ID>
+  <PRICE_RETURNED>3000</PRICE_RETURNED>
+  <BET>"2#8#12#16#27#41"</BET>
+  <MIN_COLUMN_PRICE>3000</MIN_COLUMN_PRICE>
+  <COLUMNS_NUMBER>1</COLUMNS_NUMBER>
+  <RECEIPT>"W2NlbnRlcl3Qo9Cy0LXQtNC 0LzQu9C10L3QuNC1INC INC/0YDQuNGR0LzQtSDQu9C 0YLQtdGA0LXQudC90L7QuSDRgdGC0LDQstC60Lgg0LggDQrRgNC10LPQuNGB0YLRgNCw0YbQuNC4INGN0LvQtdC60YLRgNC 0L3QvdC 0LPQviDQu9C 0YLQtdGA0LXQudC90L7Qs9C INCx0LjQu9C10YLQsA0KW2hyPWRhc2hlZCAvXQ0KW2Jd0KHQv9C 0YDRgtC70L7RgtC IDYg0LjQtyA0NVsvYl0gINCS0JPQmyAyINCh0L/QvtGA0YIgLSDQkNC70LPQvtGA0LjRgtC8IOKEljENCuKEliDQsdC40LvQtdGC0LAgW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF0zNTMyMFsvZmllbGRdDQpbZmllbGRd0JBbL2ZpZWxkXVtmaWVsZCB6ZXJvZmlsbD0yXTA2Wy9maWVsZF06IFtmaWVsZF0wMiAwOCAxMiAxNiAyNyA0MVsvZmllbGRdDQrQo9C90LjQutCw0LvRjNC90YvQuSDQutC70Y7RhzogW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF02MjExMTAxMjQxWy9maWVsZF0NCltiYXJjb2RlXTYyMTExMDEyNDFbL2JhcmNvZGVdDQrQotC40YDQsNC2IOKEljogW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF03Nzk4Wy9maWVsZF0gLSBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTc3OThbL2ZpZWxkXQ0K0JLQsNGIINC/0LXRgNCy0YvQuSDRgtC40YDQsNC2OiBbZmllbGQgd2lkdGg9MSBhbGlnbj1sZWZ0XTIzLzA5LzIwMjIgMTE6MDA6MDBbL2ZpZWxkXSDQnNCh0JoNCltocj1kYXNoZWQgL10NCtCm0JXQndCQINCY0KLQntCT0J46IFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMzAuMDBbL2ZpZWxkXSDRgNGD0LEuDQpbaHI9ZGFzaGVkIC9dDQpbYmFyY29kZV03OTI5NjM0OTU1MFsvYmFyY29kZV0NCltzaXplPXNtYWxsXdCd0L7QvNC10YAg0YLQtdC70LXRhNC 0L3QsDogW2ZpZWxkIHdpZHRoPTEgYWxpZ249bGVmdF0rNyAoOTI5KSA2MzQtOTUtNTBbL2ZpZWxkXVsvc2l6ZV0NCltocj1kYXNoZWQgL10NCtCi0LXRgNC80LjQvdCw0Lsg4oSWIFtmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMTMwNDk1ODc0Wy9maWVsZF0NCltmaWVsZCB3aWR0aD0xIGFsaWduPWxlZnRdMjMvMDkvMjAyMiAxMDoxODoyMVsvZmllbGRdINCc0KHQmg0KW2hyPWRhc2hlZCAvXQ0K0JPQvtGA0Y/Rh9Cw0Y8g0LvQuNC90LjRjyDQo9GH0LDRgdGC0L3QuNC60LAgOCA5MDAgNTU1LTAwLTU1DQrQmNC90YTQvtGA0LzQsNGG0LjRjyDQviDQsdC40LvQtdGC0LUgW2Jdd3d3LnN0b2xvdG8ucnUvYmlsZXRbL2JdDQpbL2NlbnRlcl0="</RECEIPT>
+</MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:18:21:390 0fb94767-d6ff-49fd-bb44-a1cc09df0f6e - Ответ  
+ <MOEStolotoResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><TRANSACTION_FLAGS>0</TRANSACTION_FLAGS><TICKET_REGISTRATION_TIME>1663917501</TICKET_REGISTRATION_TIME><FIRST_DRAW_ID>7798</FIRST_DRAW_ID><LAST_DRAW_ID>7798</LAST_DRAW_ID><FIRST_DRAW_TIME>1663920000</FIRST_DRAW_TIME><TICKET_NUMBER>35320</TICKET_NUMBER><TICKET_ID>6211101241</TICKET_ID><PRICE_RETURNED>3000</PRICE_RETURNED><MIN_COLUMN_PRICE>3000</MIN_COLUMN_PRICE><COLUMNS_NUMBER>1</COLUMNS_NUMBER><RECEIPT>Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Спортлото 6 из 45  ВГЛ 2 Спорт - Алгоритм №1
+№ билета 35320
+А06: 02 08 12 16 27 41
+Уникальный ключ: 6211101241
+&lt;barcode&gt;6211101241&lt;/barcode&gt;
+Тираж №: 7798 - 7798
+Ваш первый тираж: 23/09/2022 11:00:00 МСК
+
+ЦЕНА ИТОГО: 30.00 руб.
+
+&lt;barcode&gt;79296349550&lt;/barcode&gt;
+Номер телефона: +7 (929) 634-95-50
+
+Терминал № 130495874
+23/09/2022 10:18:21 МСК
+
+Горячая линия Участника 8 900 555-00-55
+Информация о билете www.stoloto.ru/bilet
+</RECEIPT><RECEIPT_HTML>&lt;div class="recTop"&gt;&lt;p&gt;Уведомление о приёме лотерейной ставки и 
+регистрации электронного лотерейного билета
+
+Спортлото 6 из 45&lt;/p&gt;&lt;/div&gt;&lt;p&gt;ВГЛ 2 Спорт - Алгоритм №1&lt;/p&gt;&lt;p&gt;№ билета 35320&lt;/p&gt;&lt;p&gt;А06: 02 08 12 16 27 41&lt;/p&gt;&lt;p&gt;&lt;b&gt;Уникальный ключ:&lt;/b&gt; 6211101241&lt;/p&gt;&lt;p&gt;&lt;b&gt;Тираж №:&lt;/b&gt; 7798 - 7798&lt;/p&gt;&lt;p&gt;&lt;b&gt;Ваш первый тираж:&lt;/b&gt; 23/09/2022 11:00:00 МСК&lt;/p&gt;&lt;div class = "bet"&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;ЦЕНА ИТОГО:&lt;/b&gt; 30.00 руб.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Номер телефона:&lt;/b&gt; +7 (929) 634-95-50&lt;/p&gt;&lt;p&gt;Терминал № 130495874&lt;/p&gt;&lt;p&gt;23/09/2022 10:18:21 МСК&lt;/p&gt;&lt;p&gt;Горячая линия Участника 8 900 555-00-55&lt;/p&gt;&lt;p&gt;Информация о билете www.stoloto.ru/bilet&lt;/p&gt;</RECEIPT_HTML><BET>"2#8#12#16#27#41"</BET><KEY_CANCEL>126</KEY_CANCEL></MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:39:01:077 33165678-a341-4919-8575-5afcd3165b62 - Запрос в столото на продажу лотерейного билета (купона) 
+ <MOEStolotoCancelRequest><Action>cancel</Action><TerminalNumber>130495874</TerminalNumber><ExternalTransactionId>127</ExternalTransactionId><KeyCancel>124</KeyCancel><TicketId>0</TicketId><IdCancelType>5</IdCancelType><BarcodeOnCancel>00000 00000 00000 00000 00000 00000 00000</BarcodeOnCancel><PinCancel>0</PinCancel><RequestTime>1</RequestTime></MOEStolotoCancelRequest>
+IP: ::1 Время: 23.09.2022 10:39:01:077 33165678-a341-4919-8575-5afcd3165b62 - Входная строка запроса в сотолото: TERMINAL_ID=130495874&REQUEST_TIME=1&EXTERNAL_TRANSACTION_ID=127&ID_CANCEL_TYPE=5&TICKET_ID=0&KEY_CANCEL=124&BARCODE="00000 00000 00000 00000 00000 00000 00000"&PIN_CANCEL=0&
+IP: ::1 Время: 23.09.2022 10:39:01:078 c92fcae6-b101-48f1-a2ee-dd5bb5e652fc - Отправляем запрос на - https://agent.stolotogate.ru:51443//prov/cgi_eprov?id=14
+IP: ::1 Время: 23.09.2022 10:39:01:082 8b953f91-75d0-45bc-aa22-9d18a2650fe7 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:39:01:083 8b953f91-75d0-45bc-aa22-9d18a2650fe7 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:39:01:084 8b953f91-75d0-45bc-aa22-9d18a2650fe7 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:39:01:084 c92fcae6-b101-48f1-a2ee-dd5bb5e652fc - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:39:01:084 c92fcae6-b101-48f1-a2ee-dd5bb5e652fc - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:39:01:320 c92fcae6-b101-48f1-a2ee-dd5bb5e652fc - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:39:01:324 33165678-a341-4919-8575-5afcd3165b62 - Ответ от столото 127 : <MOEStolotoResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <TRANSACTION_FLAGS>0</TRANSACTION_FLAGS>
+</MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:39:01:324 33165678-a341-4919-8575-5afcd3165b62 - Ответ  
+ <MOEStolotoResponse><Message>Успешное выполнение операции</Message><Result>2</Result><REQUEST_SIGN>0</REQUEST_SIGN><TRANSACTION_FLAGS>0</TRANSACTION_FLAGS></MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:39:01:584 aba77f76-79e9-4e93-be72-961606189703 - Запрос в столото на продажу лотерейного билета (купона) 
+ <MOEStolotoCancelRequest><Action>cancel</Action><TerminalNumber>130495874</TerminalNumber><ExternalTransactionId>128</ExternalTransactionId><KeyCancel>126</KeyCancel><TicketId>0</TicketId><IdCancelType>5</IdCancelType><BarcodeOnCancel>00000 00000 00000 00000 00000 00000 00000</BarcodeOnCancel><PinCancel>0</PinCancel><RequestTime>1</RequestTime></MOEStolotoCancelRequest>
+IP: ::1 Время: 23.09.2022 10:39:01:584 aba77f76-79e9-4e93-be72-961606189703 - Входная строка запроса в сотолото: TERMINAL_ID=130495874&REQUEST_TIME=1&EXTERNAL_TRANSACTION_ID=128&ID_CANCEL_TYPE=5&TICKET_ID=0&KEY_CANCEL=126&BARCODE="00000 00000 00000 00000 00000 00000 00000"&PIN_CANCEL=0&
+IP: ::1 Время: 23.09.2022 10:39:01:585 23d9c90e-286a-4d66-a451-3954b4a50171 - Отправляем запрос на - https://agent.stolotogate.ru:51443//prov/cgi_eprov?id=14
+IP: ::1 Время: 23.09.2022 10:39:01:588 5c729ac8-723d-4fac-b9ad-5a795cb4d7a0 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 10:39:01:589 5c729ac8-723d-4fac-b9ad-5a795cb4d7a0 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 10:39:01:590 5c729ac8-723d-4fac-b9ad-5a795cb4d7a0 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 10:39:01:590 23d9c90e-286a-4d66-a451-3954b4a50171 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 10:39:01:591 23d9c90e-286a-4d66-a451-3954b4a50171 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 10:39:01:662 23d9c90e-286a-4d66-a451-3954b4a50171 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 10:39:01:663 aba77f76-79e9-4e93-be72-961606189703 - Ответ от столото 128 : <MOEStolotoResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <TRANSACTION_FLAGS>0</TRANSACTION_FLAGS>
+</MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 10:39:01:663 aba77f76-79e9-4e93-be72-961606189703 - Ответ  
+ <MOEStolotoResponse><Message>Успешное выполнение операции</Message><Result>2</Result><REQUEST_SIGN>0</REQUEST_SIGN><TRANSACTION_FLAGS>0</TRANSACTION_FLAGS></MOEStolotoResponse>
+IP: ::1 Время: 23.09.2022 13:11:30:077 bfb076e3-e8e0-4a5e-95da-161717b036c7 - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495826</TerminalNumber><Version>1</Version><GameId>4420</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 13:11:30:077 bfb076e3-e8e0-4a5e-95da-161717b036c7 - Входная строка запроса в сотолото: TERMINAL_ID=130495826&VERSION=1&GAME_ID=4420&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 13:11:30:077 c13b4904-41b1-49b2-9f75-c3863be55d00 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 13:11:30:080 514377fc-fd1b-417d-813b-180c9c3a8bfb - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 13:11:30:082 514377fc-fd1b-417d-813b-180c9c3a8bfb - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 13:11:30:082 514377fc-fd1b-417d-813b-180c9c3a8bfb - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 13:11:30:083 c13b4904-41b1-49b2-9f75-c3863be55d00 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 13:11:30:083 c13b4904-41b1-49b2-9f75-c3863be55d00 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 13:11:30:388 c13b4904-41b1-49b2-9f75-c3863be55d00 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 13:11:30:389 bfb076e3-e8e0-4a5e-95da-161717b036c7 - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;5203&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-23T12:55:00&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-23T15:55:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-23T16:00:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;25000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;52297691400&lt;/jackpot&gt;
+    &lt;fields_number&gt;5&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;9100&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+      &lt;number&gt;2&lt;/number&gt;
+      &lt;number&gt;3&lt;/number&gt;
+      &lt;number&gt;4&lt;/number&gt;
+      &lt;number&gt;5&lt;/number&gt;
+      &lt;number&gt;10&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;4&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;4&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;20&lt;/max_choice_number&gt;
+        &lt;size&gt;20&lt;/size&gt;
+      &lt;/matrix&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;2&lt;/id&gt;
+        &lt;win_comb_len&gt;4&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;4&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;20&lt;/max_choice_number&gt;
+        &lt;size&gt;20&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories&gt;
+      &lt;category&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;is_superprize&gt;true&lt;/is_superprize&gt;
+        &lt;jackpot&gt;52297691400&lt;/jackpot&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;2&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;3&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;4&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;5&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;6&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;7&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;8&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;9&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;10&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;11&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;12&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+    &lt;/categories&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 13:11:30:390 bfb076e3-e8e0-4a5e-95da-161717b036c7 - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;5203&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-23T12:55:00&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-23T15:55:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-23T16:00:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;25000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;52297691400&lt;/jackpot&gt;
+    &lt;fields_number&gt;5&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;9100&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+      &lt;number&gt;2&lt;/number&gt;
+      &lt;number&gt;3&lt;/number&gt;
+      &lt;number&gt;4&lt;/number&gt;
+      &lt;number&gt;5&lt;/number&gt;
+      &lt;number&gt;10&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;4&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;4&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;20&lt;/max_choice_number&gt;
+        &lt;size&gt;20&lt;/size&gt;
+      &lt;/matrix&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;2&lt;/id&gt;
+        &lt;win_comb_len&gt;4&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;4&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;20&lt;/max_choice_number&gt;
+        &lt;size&gt;20&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories&gt;
+      &lt;category&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;is_superprize&gt;true&lt;/is_superprize&gt;
+        &lt;jackpot&gt;52297691400&lt;/jackpot&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;2&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;3&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;4&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;5&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;6&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;7&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;8&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;9&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;10&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;11&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+      &lt;category&gt;
+        &lt;id&gt;12&lt;/id&gt;
+        &lt;is_superprize&gt;false&lt;/is_superprize&gt;
+      &lt;/category&gt;
+    &lt;/categories&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 15:26:05:430 581f6d76-1a86-4fb0-8914-16d4087bc478 - Запрос в столото на получение полного перечня параметров лотерейных продуктов 
+ <MOEStolotoCheckRequest><Action>check</Action><TerminalNumber>130495856</TerminalNumber><Version>1</Version><GameId>7103</GameId><DrawId>0</DrawId></MOEStolotoCheckRequest>
+IP: ::1 Время: 23.09.2022 15:26:05:430 581f6d76-1a86-4fb0-8914-16d4087bc478 - Входная строка запроса в сотолото: TERMINAL_ID=130495856&VERSION=1&GAME_ID=7103&DRAW_ID=0&
+IP: ::1 Время: 23.09.2022 15:26:05:431 98becd54-8cae-4f64-8727-9b7007254ad9 - Отправляем запрос на - https://agent.stolotogate.ru:51443//fprov/fcgi_gameprops?id=30
+IP: ::1 Время: 23.09.2022 15:26:05:434 078500e3-8f23-46b6-990b-a5c5890b6cb7 - ищем сертификат по отпечатку: 14427d17dbbb9c686531b6a87f46f02d861092b0
+IP: ::1 Время: 23.09.2022 15:26:05:436 078500e3-8f23-46b6-990b-a5c5890b6cb7 - KeyExchangeAlgorithm  (RSA-PKCS1-KeyEx) - имя алгоритма обмена ключами!
+IP: ::1 Время: 23.09.2022 15:26:05:436 078500e3-8f23-46b6-990b-a5c5890b6cb7 - SerialNumberCert  (01) - серийный номер сертификата в прямом порядке!
+IP: ::1 Время: 23.09.2022 15:26:05:437 98becd54-8cae-4f64-8727-9b7007254ad9 - Сертефикат: Найден
+IP: ::1 Время: 23.09.2022 15:26:05:437 98becd54-8cae-4f64-8727-9b7007254ad9 - Отправляем запрос
+IP: ::1 Время: 23.09.2022 15:26:05:712 98becd54-8cae-4f64-8727-9b7007254ad9 - Ответ c запроса получен, возвращаем responseFromServer
+IP: ::1 Время: 23.09.2022 15:26:05:712 581f6d76-1a86-4fb0-8914-16d4087bc478 - Ответ от cервиса столото - код ответа: 0 : <MOEStolotoCheckResponse>
+  <REQUEST_SIGN>0</REQUEST_SIGN>
+  <XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1459&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:02&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;49329805700&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1460&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-01T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-01T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1462&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-08-28T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-15T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-15T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML>
+</MOEStolotoCheckResponse>
+IP: ::1 Время: 23.09.2022 15:26:05:713 581f6d76-1a86-4fb0-8914-16d4087bc478 - Ответ  
+ <MOEStolotoCheckResponse><Message>Успешное выполнение операции</Message><Result>0</Result><REQUEST_SIGN>0</REQUEST_SIGN><XML>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;p1:draws xmlns:p1="http://gosloto.ru/http_proto_xsd"&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1459&lt;/draw_id&gt;
+    &lt;is_current&gt;true&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:02&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-09-24T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-09-24T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;jackpot&gt;49329805700&lt;/jackpot&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1460&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-09-09T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-01T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-01T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+  &lt;draw&gt;
+    &lt;draw_id&gt;1462&lt;/draw_id&gt;
+    &lt;is_current&gt;false&lt;/is_current&gt;
+    &lt;sale_start&gt;2022-08-28T00:00:01&lt;/sale_start&gt;
+    &lt;sale_stop&gt;2022-10-15T17:20:00&lt;/sale_stop&gt;
+    &lt;draw_time&gt;2022-10-15T18:30:00&lt;/draw_time&gt;
+    &lt;min_bet_amount&gt;15000&lt;/min_bet_amount&gt;
+    &lt;fields_number&gt;1&lt;/fields_number&gt;
+    &lt;max_bet_number&gt;1&lt;/max_bet_number&gt;
+    &lt;bet_multipliers&gt;
+      &lt;multiplier&gt;1&lt;/multiplier&gt;
+    &lt;/bet_multipliers&gt;
+    &lt;bet_draw_numbers&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/bet_draw_numbers&gt;
+    &lt;matrixes&gt;
+      &lt;matrix&gt;
+        &lt;id&gt;1&lt;/id&gt;
+        &lt;win_comb_len&gt;90&lt;/win_comb_len&gt;
+        &lt;min_choice_number&gt;30&lt;/min_choice_number&gt;
+        &lt;max_choice_number&gt;0&lt;/max_choice_number&gt;
+        &lt;size&gt;90&lt;/size&gt;
+      &lt;/matrix&gt;
+    &lt;/matrixes&gt;
+    &lt;categories/&gt;
+  &lt;/draw&gt;
+&lt;/p1:draws&gt;
+</XML></MOEStolotoCheckResponse>
